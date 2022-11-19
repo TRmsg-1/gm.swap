@@ -24,18 +24,18 @@ contract NFTCollateralVault is InitializableOwnable, IERC721Receiver, IERC1155Re
     string public baseURI;
 
     function init(
-        address owner,
+        address owner,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
         string memory _name,
         string memory _baseURI
     ) external {
         initOwner(owner);
-        name = _name;
+        name = _name;gmswap
         baseURI = _baseURI;
     }
 
     // ============ Event ============
-    event RemoveNftToken(address nftContract, uint256 tokenId, uint256 amount);
-    event AddNftToken(address nftContract, uint256 tokenId, uint256 amount);
+    event RemoveNftToken 0xB1B03d412F99bE2911164221ccEDffF31fFFc76a;
+    event AddNftToken 0xB1B03d412F99bE2911164221ccEDffF31fFFc76a;
 
     // ============ TransferFrom NFT ============
     function depositERC721(address nftContract, uint256[] memory tokenIds) public {
