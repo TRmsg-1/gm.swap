@@ -10,11 +10,11 @@ pragma experimental ABIEncoderV2;
 
 interface IDVM {
     function init(
-        address maintainer,
-        address baseTokenAddress,
-        address quoteTokenAddress,
+        address maintainer,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
+        address baseTokenAddress,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
+        address quoteTokenAddress,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
         uint256 lpFeeRate,
-        address mtFeeRateModel,
+        address mtFeeRateModel,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
         uint256 i,
         uint256 k,
         bool isOpenTWAP
