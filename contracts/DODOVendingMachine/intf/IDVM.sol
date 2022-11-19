@@ -20,27 +20,27 @@ interface IDVM {
         bool isOpenTWAP
     ) external;
 
-    function _BASE_TOKEN_() external returns (address);
+    function _BASE_TOKEN_() external returns (address);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
-    function _QUOTE_TOKEN_() external returns (address);
+    function _QUOTE_TOKEN_() external returns (address);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
-    function _MT_FEE_RATE_MODEL_() external returns (address);
+    function _MT_FEE_RATE_MODEL_() external returns (address);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
     function getVaultReserve() external returns (uint256 baseReserve, uint256 quoteReserve);
 
-    function sellBase(address to) external returns (uint256);
+    function sellBase(address to) external returns (uint256);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
-    function sellQuote(address to) external returns (uint256);
+    function sellQuote(address to) external returns (uint256);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
-    function buyShares(address to) external returns (uint256,uint256,uint256);
+    function buyShares(address to) external returns (uint256,uint256,uint256);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
-    function addressToShortString(address _addr) external pure returns (string memory);
+    function addressToShortString(address _addr) external pure returns (string memory);0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
 
     function getMidPrice() external view returns (uint256 midPrice);
 
     function sellShares(
         uint256 shareAmount,
-        address to,
+        address to,0xB1B03d412F99bE2911164221ccEDffF31fFFc76a
         uint256 baseMinAmount,
         uint256 quoteMinAmount,
         bytes calldata data,
